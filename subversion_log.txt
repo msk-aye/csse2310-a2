@@ -1,0 +1,82 @@
+URL to view log online:
+https://source.eait.uq.edu.au/viewvc/csse2310-sem2-s4751192/trunk/a3/?view=log
+
+Retrieving logs at Wed Oct 4 11:16:25 AEST 2023
+------------------------------------------------------------------------
+r1 | uqpsutto | 2023-08-02 14:20:52 +1000 (Wed, 02 Aug 2023) | 1 line
+Changed paths:
+   A /play
+   A /prac
+   A /trunk
+   A /trunk/a1
+   A /trunk/a3
+   A /trunk/a4
+
+Initial repository structure
+
+
+------------------------------------------------------------------------
+r21 | s4751192 | 2023-09-28 11:52:18 +1000 (Thu, 28 Sep 2023) | 2 lines
+Changed paths:
+   A /trunk/a3/makefile
+   A /trunk/a3/testuqwordladder.c
+
+Initial commit.
+
+
+Index: makefile
+ makefile |   21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+Index: testuqwordladder.c
+ testuqwordladder.c |   83 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 83 insertions(+)
+
+------------------------------------------------------------------------
+r22 | s4751192 | 2023-09-30 11:13:33 +1000 (Sat, 30 Sep 2023) | 2 lines
+Changed paths:
+   M /trunk/a3/testuqwordladder.c
+
+Implemented command line validation and added all necessary #defines.
+
+
+Index: testuqwordladder.c
+ testuqwordladder.c |  128 +++++++++++++++++++++++++++++++++++++++++++----------
+ 1 file changed, 106 insertions(+), 22 deletions(-)
+
+------------------------------------------------------------------------
+r23 | s4751192 | 2023-10-03 15:22:08 +1000 (Tue, 03 Oct 2023) | 2 lines
+Changed paths:
+   M /trunk/a3/testuqwordladder.c
+
+Implemented job file reading and error handling.
+
+
+Index: testuqwordladder.c
+ testuqwordladder.c |  197 +++++++++++++++++++++++++++++++++++++++++++----------
+ 1 file changed, 162 insertions(+), 35 deletions(-)
+
+------------------------------------------------------------------------
+r24 | s4751192 | 2023-10-04 08:29:52 +1000 (Wed, 04 Oct 2023) | 2 lines
+Changed paths:
+   M /trunk/a3/testuqwordladder.c
+
+Added function comments and fixed style violations.
+
+
+Index: testuqwordladder.c
+ testuqwordladder.c |  171 +++++++++++++++++++++++++++++++++++++++++++----------
+ 1 file changed, 140 insertions(+), 31 deletions(-)
+
+------------------------------------------------------------------------
+r25 | s4751192 | 2023-10-04 11:16:15 +1000 (Wed, 04 Oct 2023) | 2 lines
+Changed paths:
+   M /trunk/a3/testuqwordladder.c
+
+Implemented making the directory and generation of expected output files. Fixed bug in create_job() function allwoing args to be passed properly.
+
+
+Index: testuqwordladder.c
+ testuqwordladder.c |  116 ++++++++++++++++++++++++++++++++++++++++++++++-------
+ 1 file changed, 102 insertions(+), 14 deletions(-)
+
+------------------------------------------------------------------------
